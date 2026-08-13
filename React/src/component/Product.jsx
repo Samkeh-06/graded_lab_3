@@ -25,7 +25,6 @@ function Products(){
                 setLoading(false)
             }
             catch(error){
-              console.log(error)
               setError(true)
               setLoading(false)
             }
